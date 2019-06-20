@@ -6,7 +6,7 @@ import uuid from 'uuid';
 import './App.css';
 
 class App extends React.Component {
-
+  //initializing the state
   state = {
     todosList: [
       //      {        id: uuid.v4(), title: "ABCD", completed: false     }
